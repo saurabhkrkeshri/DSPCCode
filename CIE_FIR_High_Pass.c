@@ -30,7 +30,7 @@ int main()
         if(n != tao)
             hn = (1/(pi*(n-tao))*(sin(pi*(n-tao))-sin(wc*(n-tao))));
         else
-            hn = (pi-wc)/wc;
+            hn = (pi-wc)/pi;
         h[n] = wn*hn;
     }
     for(n=0;n<N;n++)
